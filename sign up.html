@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shop</title>
+
+	<!-- include css files -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link  rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+	<!-- include js files -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<!-- start navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span> 
+		      </button>
+		      <a class="navbar-brand" href="#">Shop</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li><a href="file:///E:/ShopCource/index.html">Home</a></li>
+		        <li><a href="#">Add Ads</a></li>
+		        <li><a href="#">Mobiles</a></li> 
+		        <li><a href="#">Computers</a></li> 
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="active"><a href="#" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		        <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	<!-- end navbar -->
+
+	<!-- start cover -->
+		<div class="cover">
+			
+		</div>
+	<!-- end cover -->
+
+	<!-- start sign up form -->
+
+		<div class="container">
+			<table align="center">
+			<td align="center">
+		<form>
+		  <h2>Sign Up</h2>
+		  <h4><p>Please fill in this form to create an account!</p></h4>
+		  <br>
+
+		  <div class="input-container">
+		    <span class="fa fa-user icon fa-2x"></span>
+		    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+		  </div>
+
+		  <div class="input-container">
+		    <span class="fa fa-envelope icon fa-2x"></span>
+		    <input class="input-field" type="text" placeholder="Email" name="email">
+		  </div>
+
+		  <div class="input-container">
+		    <span class="fa fa-lock icon fa-2x"></span>
+		    <input class="input-field" type="password" placeholder="Password" name="psw">
+		  </div>
+
+		  <div class="input-container">
+		    <span class="fa fa-lock icon fa-2x"></span>
+		    <span class="fa fa-check icon fa-2x"></span>
+
+		    <input class="input-field" type="password" placeholder="Confirm Password" name="psw">
+		  </div>
+
+		  <button type="submit" class="btn">Register</button>
+		</form>
+		<br>
+		<div class="text-center">Already have an account? <a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Log in Here</a></div>
+	</div>
+	</table>
+	</td>
+	</div>
+
+	<!-- end sign up form -->
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login</h4>
+        </div>
+        <div class="modal-body">
+			<form action="/action_page.php">
+			  <div class="form-group">
+			    <label for="email">Email address:</label>
+			    <input type="email" class="form-control" id="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="pwd">Password:</label>
+			    <input type="password" class="form-control" id="pwd">
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	<!-- start footer -->
+		<div class="footer text-center">
+			<p>All right reversed &copy;</p>
+			<p>Tasneem Alkurdi</p>
+		</div>
+	<!-- end footer -->
+
+	</body>
+	</html>

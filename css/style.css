@@ -1,0 +1,100 @@
+body{
+	padding-top: 53px;
+}
+
+.navbar-inverse {
+    background-color: #990000;
+    border-color: #990000;
+}
+.navbar .navbar-nav li a {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.navbar .navbar-header .navbar-brand {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+
+.cover{
+	background-image: url('../images/cover.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	margin-bottom: 50px;
+}
+
+.item{
+	height: 275px;
+	background-color: #ff9999;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	padding: 5px;
+
+}
+
+.item img{
+	height: 150px;
+	width: 100px;
+	margin: 10px auto;
+}
+
+.footer{
+	background-color: #990000;
+	height: 83px;
+	padding: 10px;
+	margin: 0px;
+	margin-top: 50px;
+}
+.footer p{
+	font-size: 20px;
+	color: #fff;
+}
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background:#ff9999; 
+  color: #ff3333;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:  #ff3333;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.container .fa-check{
+  position: absolute;
+}
